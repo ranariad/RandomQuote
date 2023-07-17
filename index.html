@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Qoute</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+
+    <section id="randomQoute" class="pt-5">
+        <div class="container">
+            <div class="quotes-content text-center d-flex flex-column justify-content-center align-items-center">
+                <!-- <h1 class="quotes-sec-title text-capitalize fw-bolder text-dark mb-3">
+                  مقولة اليوم
+                </h1> -->
+               
+                
+                <div class="single-quote  py-5 text-dark ">
+                  <div class="circle p-3 mx-auto d-flex flex-column justify-content-center align-items-center">
+                    <p
+                    class="quote-content w-100 text-wrap  fw-bold mx-auto mb-3 fst-italic"
+                    id="quoteDesc"
+                  ></p>
+                  <h2
+                    class="quote-author text-capitalize fs-4 fw-bold"
+                    id="authorName"
+                  ></h2>
+                  </div>
+                </div>
+                <div class="quotes-btn mt-3">
+                    <button
+                      class="btn text-capitalize fw-bold btn-lg  border-0"
+                      id="quoteBtn"
+                      onclick="getRandomQuotes()"
+                    >
+                      مقولة جديدة
+                    </button>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
